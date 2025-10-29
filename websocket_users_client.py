@@ -6,12 +6,20 @@ import websockets
 async def client():
     uri = "ws://localhost:8765"  # Адрес сервера
     async with websockets.connect(uri) as websocket:
-        message = input()  # Сообщение, которое отправит клиент
-        print(f"Отправка: {message}")
-        await websocket.send(message)  # Отправляем сообщение
+        print("🔗 Подключено к серверу! (введи 'exit' для выхода)\n")
 
-        for _ in range(5):
+        while True:
+            message = input("Вы: ")
+            if message.lower() in ("exit", "quit"):
+                print("👋 Завершаем соединение...")
+                break
+
+            # Отправляем сообщение
+            await websocket.send(message)
+            print(f"📤 Отправлено: {message}")
+
+            # Получаем ответ сразу после отправки
             response = await websocket.recv()
-            print(f"Ответ от сервера: {response}")
+            print(f"📥 Ответ от сервера: {response}\n")
 
 asyncio.run(client())
