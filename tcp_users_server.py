@@ -10,20 +10,21 @@ def server():
     server_socket.bind(server_address)
 
     # Начинаем слушать входящие подключения (максимум 5 в очереди)
-    server_socket.listen(5)
+    server_socket.listen(10)
     print("Сервер запущен и ждет подключений...")
+    l = []
 
     while True:
         # Принимаем соединение от клиента
         client_socket, client_address = server_socket.accept()
-        print(f"Подключение от {client_address}")
+        print(f"Пользователь с адресом: {client_address} подключился к серверу")
 
         # Получаем данные от клиента
         data = client_socket.recv(1024).decode()
-        print(f"Получено сообщение: {data}")
-
+        print(f"Пользователь с адресом: {client_address} отправил сообщение: {data}")
+        l.append(data)
         # Отправляем ответ клиенту
-        response = f"Сервер получил: {data}"
+        response = "\n".join(l)
         client_socket.send(response.encode())
 
         # Закрываем соединение с клиентом

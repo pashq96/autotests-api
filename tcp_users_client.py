@@ -8,12 +8,12 @@ server_address = ('localhost', 12345)
 client_socket.connect(server_address)
 
 # Отправляем сообщение серверу
-message = "Привет, сервер!"
+message = input()
 client_socket.send(message.encode())
 
 # Получаем ответ от сервера
 response = client_socket.recv(1024).decode()
-print(f"Ответ от сервера: {response}")
+print(f"{response}")
 
 # Закрываем соединение
 client_socket.close()
