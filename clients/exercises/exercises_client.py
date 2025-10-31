@@ -28,15 +28,18 @@ class UpdateExersisesDict(TypedDict):
     """
     Описание словаря на обновление задания
     """
-    title: str
-    maxScore: int
-    minScore: int
-    orderIndex: int
-    description: str
-    estimatedTime: str
+    title: str | None
+    maxScore: int | None
+    minScore: int | None
+    orderIndex: int | None
+    description: str | None
+    estimatedTime: str | None
 
 
 class ExercisesClient(APIClient):
+    """
+    Клиент для работы с /api/v1/exercises
+    """
 
     def get_exercises_api(self, query: GetExercisesQueryDict) -> Response:
         """
@@ -72,7 +75,7 @@ class ExercisesClient(APIClient):
         :param request: Словарь title, maxScore, minScore, orderIndex, description, estimatedTime
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(f"/api/v1/exercises/{exercise_id}", json=request)
+        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request)
 
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
@@ -81,4 +84,4 @@ class ExercisesClient(APIClient):
         :param exercise_id: id задания
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(f"/api/v1/exercises/{exercise_id}")
+        return self.delete(f"/api/v1/exercises/{exercise_id}")
