@@ -1,4 +1,4 @@
-from uuid import UUID, uuid4
+from uuid import UUID
 from pydantic import BaseModel, Field, EmailStr, field_validator
 
 from tools.fakers import get_random_email
