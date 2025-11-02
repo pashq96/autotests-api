@@ -6,6 +6,9 @@ from clients.authentication.authentication_schema import LoginRequestSchema
 
 
 class AuthenticationUserSchema(BaseModel):
+    """
+    Описание структуры запроса на аутентификацию.
+    """
     email: str
     password: str
 

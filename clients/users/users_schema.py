@@ -1,4 +1,5 @@
 from pydantic import BaseModel, Field, EmailStr, ConfigDict
+from tools.fakers import get_random_email
 
 
 class UserSchema(BaseModel):
@@ -20,11 +21,11 @@ class CreateUserRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    email: EmailStr
-    password: str
-    last_name: str = Field(alias="lastName")
-    first_name: str = Field(alias="firstName")
-    middle_name: str = Field(alias="middleName")
+    email: EmailStr = Field(default_factory=get_random_email)
+    password: str = Field(default="default_password")
+    last_name: str = Field(alias="lastName", default="default_last_name")
+    first_name: str = Field(alias="firstName", default="default_first_name")
+    middle_name: str = Field(alias="middleName", default="default_middle_name")
 
 
 class CreateUserResponseSchema(BaseModel):
