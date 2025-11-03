@@ -1,5 +1,4 @@
-from uuid import UUID
-from pydantic import BaseModel, Field, EmailStr, field_validator
+from pydantic import BaseModel, Field, EmailStr
 
 from tools.fakers import fake
 
@@ -14,25 +13,16 @@ class UserSchema(BaseModel):
     first_name: str = Field(alias="firstName")
     middle_name: str = Field(alias="middleName")
 
-    # Проверка на то что str поле id подходит под структуру UUID
-    @field_validator('id')
-    def validate_uuid(cls, v):
-        try:
-            UUID(v)
-        except ValueError:
-            raise ValueError(f"{v} is not a valid UUID string")
-        return v
-
 
 class CreateUserRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание юзера.
     """
     email: EmailStr = Field(default_factory=fake.email)
-    password: str = Field(default="password")
-    last_name: str = Field(alias="lastName", default="default_last_name")
-    first_name: str = Field(alias="firstName", default="default_first_name")
-    middle_name: str = Field(alias="middleName", default="default_middle_name")
+    password: str = Field(default_factory=fake.password)
+    last_name: str = Field(alias="lastName", default_factory=fake.last_name)
+    first_name: str = Field(alias="firstName", default_factory=fake.first_name)
+    middle_name: str = Field(alias="middleName", default_factory=fake.middle_name)
 
 
 class CreateUserResponseSchema(BaseModel):
