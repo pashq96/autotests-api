@@ -1,9 +1,9 @@
 import httpx
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 # Создание пользователя
 body = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": "pashq",
     "lastName": "pashq",
     "firstName": "pashq",
@@ -24,7 +24,7 @@ tokens = response.json()
 
 # Изменение данных пользователя
 body = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "lastName": "string",
     "firstName": "string",
     "middleName": "string"
