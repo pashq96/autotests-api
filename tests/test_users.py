@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 import pytest
 
-from clients.users.public_users_client import get_public_users_client, PublicUsersClient
+from clients.users.public_users_client import PublicUsersClient
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
