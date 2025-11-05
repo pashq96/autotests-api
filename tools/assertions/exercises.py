@@ -1,6 +1,8 @@
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import ExerciseSchema, CreateExerciseResponseSchema, \
     CreateExerciseRequestSchema, GetExerciseResponseSchema, UpdateExersiseRequestSchema, UpdateExersiseResponseSchema
 from tools.assertions.base import assert_equal
+from tools.assertions.errors import assert_internal_error_response
 
 
 def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
@@ -75,3 +77,14 @@ def assert_update_exercise_response(
 
     if request.estimated_time is not None:
         assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
+
+
+def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Проверка, что ошибка о несуществующем задании совпадает с ожидаемой
+
+    :param actual: Полученная ошибка от запроса на несуществующее задание
+    :raises AssertionError: Если хотя бы одно поле не совпадает.
+    """
+    expected = InternalErrorResponseSchema(details="Exercise not found")
+    assert_internal_error_response(actual, expected)
