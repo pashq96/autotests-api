@@ -33,10 +33,6 @@ class TestCourses:
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-
-@pytest.mark.courses
-@pytest.mark.regression
-class TestCourses:
     def test_get_courses(
             self,
             courses_client: CoursesClient,
