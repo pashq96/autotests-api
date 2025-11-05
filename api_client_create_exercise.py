@@ -1,7 +1,7 @@
 from clients.courses.courses_client import get_courses_client
 from clients.courses.courses_schema import CreateCourseRequestSchema
 from clients.exercises.exercises_client import get_exercises_client
-from clients.exercises.exercises_schema import CreateExercisesSchema
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
@@ -42,7 +42,7 @@ create_course_response = courses_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
 
 
-create_exercises_request = CreateExercisesSchema(course_id=create_course_response.course.id)
+create_exercises_request = CreateExerciseRequestSchema(course_id=create_course_response.course.id)
 
 create_exercise_response = exercises_client.create_exercise(create_exercises_request)
 print("Create exercise data:", create_exercise_response)

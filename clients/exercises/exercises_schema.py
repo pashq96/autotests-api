@@ -7,6 +7,7 @@ class ExerciseSchema(BaseModel):
     """
     Описание структуры задания.
     """
+    model_config = ConfigDict(populate_by_name=True)
 
     id: str
     title: str
@@ -25,7 +26,14 @@ class GetExercisesQuerySchema(BaseModel):
     course_id: str = Field(alias="courseId")
 
 
-class CreateExercisesSchema(BaseModel):
+class CreateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на создание курса
+    """
+    exercise: ExerciseSchema
+
+
+class CreateExerciseRequestSchema(BaseModel):
     """
     Описание словаря на создание задания
     """

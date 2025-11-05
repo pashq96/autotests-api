@@ -2,7 +2,7 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.exercises.exercises_schema import GetExercisesQuerySchema, GetExercisesResponseSchema, \
-    GetExerciseResponseSchema, CreateExercisesSchema, UpdateExersisesSchema
+    GetExerciseResponseSchema, CreateExerciseRequestSchema, UpdateExersisesSchema
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
 
@@ -30,7 +30,7 @@ class ExercisesClient(APIClient):
         """
         return self.get(f"/api/v1/exercises/{exercise_id}")
 
-    def create_exercise_api(self, request: CreateExercisesSchema) -> Response:
+    def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
         Метод создания заданий
 
@@ -68,7 +68,7 @@ class ExercisesClient(APIClient):
         response = self.get_exercises_api(exercise_id)
         return GetExerciseResponseSchema.model_validate_json(response.text)
 
-    def create_exercise(self, request: CreateExercisesSchema) -> GetExerciseResponseSchema:
+    def create_exercise(self, request: CreateExerciseRequestSchema) -> GetExerciseResponseSchema:
         response = self.create_exercise_api(request)
         return GetExerciseResponseSchema.model_validate_json(response.text)
 
