@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIxOjEwOjQxLjMwMTUxNSIsInVzZXJfaWQiOiIwYzRhMzkzYS1iNjNjLTQ2YzItOGE1My01NzYxNjAzNTYyZDQifQ.eeDDepJn514X1t2EBc7MmezVzavC6i2h8baZRd74wWo' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence hit local clearly under stay standard.","courseId":"ab241487-61d8-4d9c-8294-2afb694d3ed5","maxScore":91,"minScore":25,"orderIndex":86,"description":"Catch see worry. Modern reveal air eight ready.\nDirection allow less decision figure whole air. Box rule section Mrs. Forget realize his.","estimatedTime":"4 weeks"}'

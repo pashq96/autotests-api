@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIxOjEwOjQwLjM3NDU0MiIsInVzZXJfaWQiOiI4NmMxNTcxNy03MWMxLTQ0ZTQtODRhYy01YzJhYWI2OGI3ZTkifQ.bX4AfmIbK4FP6ydrRUpwAQ1jtEvWBMvUDufKkAbWFuA' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group amount theory big practice significant.","maxScore":59,"minScore":6,"description":"Blood operation live major standard person sense. Democratic teacher hear sign network. Direction discover record high minute community feel risk.","estimatedTime":"3 weeks","previewFileId":"80189213-025f-41e6-9bf8-56c3990f8fcf","createdByUserId":"86c15717-71c1-44e4-84ac-5c2aab68b7e9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIxOjEwOjQxLjMwMTUxNSIsInVzZXJfaWQiOiIwYzRhMzkzYS1iNjNjLTQ2YzItOGE1My01NzYxNjAzNTYyZDQifQ.eeDDepJn514X1t2EBc7MmezVzavC6i2h8baZRd74wWo' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trouble represent bit white activity.","maxScore":53,"minScore":3,"description":"I PM option than religious probably. People thousand church themselves. Cell entire pass note test you.\nService family carry see market audience.\nPay worry structure information. Central clearly oil.","estimatedTime":"5 weeks","previewFileId":"6e29d5f1-fe10-4405-ab62-4e2ac0ff09de","createdByUserId":"0c4a393a-b63c-46c2-8a53-5761603562d4"}'

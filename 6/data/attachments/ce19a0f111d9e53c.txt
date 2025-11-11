@@ -1,0 +1,27 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises?courseId=7f113609-0ea6-4f01-a1ad-45f0aa78d38e
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=7f113609-0ea6-4f01-a1ad-45f0aa78d38e
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:126 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to dd6d411c-2c69-4916-9956-474b1304a3ea
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Son Mr scientist lose.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 7f113609-0ea6-4f01-a1ad-45f0aa78d38e
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 81
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Southern we old their. Thank people economy herself. Must light manage people.
+Manage lot finally letter early range. East thus decide box.
+Design describe imagine next.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

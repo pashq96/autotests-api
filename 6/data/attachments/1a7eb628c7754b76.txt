@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/48975286-700e-46fe-bd75-367acae45a9f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIxOjEwOjQwLjEwMTQ1NCIsInVzZXJfaWQiOiI3MmQ0ZWViYy05YzM3LTQ4ZTEtYmQ1Mi03ZTM0YWZmYjYxZjgifQ.fXxqXVS6zAKXng3LxD4S2DsqwjApfnSyIhVA_rcoqCQ' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Father civil movement kid animal expect.","maxScore":60,"minScore":1,"description":"Player teacher blood. Where although need center among. Exactly green value sport hold environmental through. Arm fast religious song avoid.","estimatedTime":"1 weeks"}'

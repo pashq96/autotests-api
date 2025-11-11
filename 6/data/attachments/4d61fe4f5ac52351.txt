@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIxOjEwOjQxLjU3NTY1NyIsInVzZXJfaWQiOiJhMzMzZmFjNi1iNTJlLTQzOTctYTA4Ny0xYTg1ZDQxM2M1NzkifQ.R38VBnHbw4UMPKXp7MtFFmUAMdWvH12meHRR7azdEG0' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remain agent house unit practice floor citizen.","maxScore":68,"minScore":17,"description":"Address election a political. Son system way. Meeting industry bill respond. Similar any stop enjoy off.\nAlready around teach tell must surface become.","estimatedTime":"6 weeks","previewFileId":"7fc9fc7c-b102-4343-80e9-2c7c838004e9","createdByUserId":"a333fac6-b52e-4397-a087-1a85d413c579"}'
