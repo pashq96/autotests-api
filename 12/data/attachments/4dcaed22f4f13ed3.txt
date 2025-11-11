@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjA1OjU0LjUwODUwNyIsInVzZXJfaWQiOiI0ZjllZmM3Mi05MmUwLTRjMGUtYWE3ZS1iMDQxODRiZmQ1ZDAifQ.M3pHyU-PFvRWwhv_BZizaxKlqHmRRr709RnM3AhA_hQ' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Final west yes subject receive floor in.","maxScore":73,"minScore":28,"description":"In behavior response now with place on. Region do four site cold treat. Heart vote somebody bad.\nThroughout him beautiful take actually son gas increase. Several writer director another.","estimatedTime":"3 weeks","previewFileId":"0c0039cd-4dc9-400c-bbda-b39eb2031cb0","createdByUserId":"4f9efc72-92e0-4c0e-aa7e-b04184bfd5d0"}'

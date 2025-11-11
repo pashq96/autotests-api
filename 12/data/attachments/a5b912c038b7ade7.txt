@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjA1OjUxLjg3NjEyNiIsInVzZXJfaWQiOiJkZTRjNmQ1Yy1hNzJmLTQwOGUtOWZkMi1kOGEzMDg4MzRiMDIifQ.1sFI1usJjj_kp3WEjM9RcWbdNmOnVjHQbQQ0MzVcRng' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Always check others force fly.","maxScore":62,"minScore":6,"description":"Own impact pass offer. Part after sure similar.\nTraining radio our. Network direction there plant gas never security sort.","estimatedTime":"10 weeks","previewFileId":"e221ebdc-afd3-4440-a535-0ef9c06be1e9","createdByUserId":"de4c6d5c-a72f-408e-9fd2-d8a308834b02"}'

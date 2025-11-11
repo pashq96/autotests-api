@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2c3a76c1-353b-40ad-886c-d84fb926fa92' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjA1OjUzLjAyMzY1NSIsInVzZXJfaWQiOiI4YmFhMGMyNi00Y2QzLTQyNWMtYmI2MS03OGVjZDBjYjJhN2IifQ.x2Y7QRoVcIGXRd3A9tS76bmENBI8t1FeuE05zTE3X1M' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign hear line behind young.","maxScore":68,"minScore":7,"description":"Exactly game consumer form. Court same statement food such. Deal population smile season entire goal raise treat. Tell system learn hit.\nType view race building. Shoulder green fly modern.","estimatedTime":"10 weeks"}'
