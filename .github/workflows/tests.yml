@@ -76,7 +76,7 @@ jobs:
 
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
-        uses: actions/checkout@v5  # Опять клонируем репозиторий, чтобы получить историю отчётов
+        uses: actions/checkout@v2  # Опять клонируем репозиторий, чтобы получить историю отчётов
         if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
         continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
         with:
@@ -88,8 +88,10 @@ jobs:
         uses: simple-elf/allure-report-action@master  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()  # Этот шаг тоже всегда выполняется
         with:
-          allure_results: allure-results  # Указываем каталог с результатами тестов
-          allure_history: allure-history  # Указываем каталог для истории отчётов Allure
+          allure_results: build/allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
 
       # 10. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
