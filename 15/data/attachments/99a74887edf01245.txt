@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjE3OjI5Ljc4ODU1NyIsInVzZXJfaWQiOiI3NGY5MTBkMS00YmYwLTRjMDYtODNkYy01NjI0MjgwZjAzMmIifQ.DjXO2XXDHqWCvC_RCfTPAO6FATsbb_ZxF84q4vc6YwA' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy season we.","maxScore":89,"minScore":17,"description":"Lot law so member call color certainly wind. Trip name reveal deal southern. Attack big especially help follow rise wide yet.\nHeart my professor knowledge.","estimatedTime":"7 weeks","previewFileId":"d7936b4b-0485-4444-86ad-db9a52e98ba6","createdByUserId":"74f910d1-4bf0-4c06-83dc-5624280f032b"}'

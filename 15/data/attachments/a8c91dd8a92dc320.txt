@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/517be968-299a-4197-bb48-d228383bfa2f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjE3OjI1LjkxNDM2NiIsInVzZXJfaWQiOiIwOTg3NGM5Ny1iZWVhLTRiM2EtODdkOC02NzlkZmY5ZGJkNWMifQ.llS71njP6a6JQ6ge7PGyYqqyypXDAYiQtzUSCTiEKzQ' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eat over although find often sometimes.","maxScore":71,"minScore":29,"description":"Make information although our indeed same. Power treat case stay debate. Example now vote bill next police especially.","estimatedTime":"1 weeks"}'

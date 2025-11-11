@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjE3OjI1LjAxODQ1NCIsInVzZXJfaWQiOiJmNGJiZjM4NC1kMzViLTQ0MDktOTNlMy0wYzdkYWQ4NmMzM2MifQ.MaiN6Zw5_AcEJ4j0rGTrQTuhEpdA1Lz8Ms29G6xq62s' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Watch question husband sport member.","maxScore":51,"minScore":24,"description":"Magazine few factor early carry. Carry three standard mean still find. Best mission dark she off.\nBlue radio focus build cost. Staff next project kind religious hear blue. Him heavy black recent.","estimatedTime":"7 weeks","previewFileId":"a7c6635b-5085-4bcb-9afa-675517c6d1e8","createdByUserId":"f4bbf384-d35b-4409-93e3-0c7dad86c33c"}'
