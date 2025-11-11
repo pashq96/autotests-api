@@ -94,7 +94,7 @@ jobs:
       # 10. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()  # Выполняется всегда, независимо от успеха других шагов
-        uses: peaceiris/actions-gh-pages@v3  # Используем GitHub Action для публикации отчёта на GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4  # Используем GitHub Action для публикации отчёта на GitHub Pages
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
