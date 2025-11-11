@@ -56,23 +56,23 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2
 
-#      - name: Upload allure-results
-#        uses: actions/upload-artifact@v4
-#        with:
-#          name: allure-results
-#          path: allure-results
-#
-#
-#  publish-report:
-#    name: publish-report
-#    needs: run-tests
-#    runs-on: ubuntu-latest
-#
-#    steps:
-#      - name: Download allure-results
-#        uses: actions/download-artifact@v5
-#        with:
-#          name: allure-results
+      - name: Upload allure-results
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+
+
+  publish-report:
+    name: publish-report
+    needs: run-tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download allure-results
+        uses: actions/download-artifact@v5
+        with:
+          name: allure-results
 
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
