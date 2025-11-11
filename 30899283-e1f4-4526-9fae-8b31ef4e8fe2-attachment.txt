@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjI2OjQzLjMwMDUwOSIsInVzZXJfaWQiOiIxODdkMzI2NC0zZTkzLTRhNzMtOTI1NC02OTM5Njg1NDVlZWUifQ.EPL91MweQ1224NZIZnuPXKY23trwS5ai7DZZSt3Iivg' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon artist more and.","maxScore":96,"minScore":20,"description":"Pull exist stage cup discover leg fact. Moment space affect stand director bed market. Market should address remain.\nThus arm once.","estimatedTime":"9 weeks","previewFileId":"e4547161-573c-49dc-8899-552d6ab8d405","createdByUserId":"187d3264-3e93-4a73-9254-693968545eee"}'

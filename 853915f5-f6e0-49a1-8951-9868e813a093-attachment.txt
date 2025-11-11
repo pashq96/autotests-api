@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjI2OjQyLjEyNzU3NiIsInVzZXJfaWQiOiJiYzk1NmMzZS1jYmM4LTRlOWMtYTI4MC04YzI1NWE3YmVmMGUifQ.-iUHjfkqIWBl_UJA85kOmZVsBaHFbbaCx49T3908n_I' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drop change system we price.","maxScore":66,"minScore":28,"description":"Source start thank south tell culture. Work brother full again mission adult building.\nBank put guess. Run treat program enough door choose edge soldier.","estimatedTime":"9 weeks","previewFileId":"7585d7fe-c9e6-45d2-a101-0fafd94e9061","createdByUserId":"bc956c3e-cbc8-4e9c-a280-8c255a7bef0e"}'
