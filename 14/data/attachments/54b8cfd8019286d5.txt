@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjE2OjIxLjg4OTIyMyIsInVzZXJfaWQiOiI4NTU5MGQwNS0zNjFhLTQ3OWItOGQ0OC0zYmNiYzI3ZWFiOTQifQ.mBsReQnL_GypPMusz5d9tA1hPdWo8L7FQFqAhSEXp7I' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye contain usually tax whatever item at.","maxScore":100,"minScore":17,"description":"Beyond article here house throw. Time serve very measure head speech major.\nSecond opportunity number available. Magazine rule a plant protect bar trip.","estimatedTime":"7 weeks","previewFileId":"4c49a788-be98-4b45-862c-be1db772ebf8","createdByUserId":"85590d05-361a-479b-8d48-3bcbc27eab94"}'

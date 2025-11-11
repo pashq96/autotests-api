@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjE2OjE5LjIzNjEzMCIsInVzZXJfaWQiOiJkZGFiNjRiNS1kYjg4LTQ2MTYtOGE0OS0wMzc5ZmQyNTUzODkifQ.tuker6_TSJ9gFSGmM6ig15nsvnUX7voF-Fuj5PkWZek' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cut director probably west speech plan heart.","maxScore":63,"minScore":15,"description":"Yourself your know sport own else save. Through guy enter fish field. So job true word father another.\nSubject inside fine knowledge large. Face student west.","estimatedTime":"1 weeks","previewFileId":"0281fb9b-d1aa-4219-9ca9-8677b9bca39a","createdByUserId":"ddab64b5-db88-4616-8a49-0379fd255389"}'

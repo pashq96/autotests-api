@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjE2OjIxLjYxNTYzMyIsInVzZXJfaWQiOiJlYjFiYTU1NC1hZDg4LTQ0NGQtOGYwYy0xZTVjZTRhMDQ5YzYifQ.JeiXg5Nu0-cQSaMQN91197FTMtMj8vxl0nnA30YqqGw' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Operation will popular shake large.","courseId":"46d4aca6-eada-47fc-a69d-6ef3ca9069ed","maxScore":59,"minScore":4,"orderIndex":55,"description":"Edge figure view him fish happy feeling great. Car research one thousand.\nSuffer result however that program. Under apply society growth itself detail half. Car assume test whom.","estimatedTime":"8 weeks"}'

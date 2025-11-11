@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjE2OjIyLjgxNDcwNyIsInVzZXJfaWQiOiI5ZGI5ODBmNi1lMWRiLTQzNmEtYTJhYy00NjU5NWEyMDlmNWIifQ.OcpptmVUDn-4WegnfWkNiLw9H6yryNw1Gc7_4ydl6Gs' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly rate account way ahead.","maxScore":77,"minScore":2,"description":"Similar bag picture note form bad detail. Wind training yeah sell. Thus itself save certain key with.","estimatedTime":"4 weeks","previewFileId":"8fe3b638-fe73-4bbd-b9a9-870e32c9e4dc","createdByUserId":"9db980f6-e1db-436a-a2ac-46595a209f5b"}'

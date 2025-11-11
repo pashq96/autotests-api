@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDIyOjE2OjE5LjUwODIyNyIsInVzZXJfaWQiOiIyNjI1OTczNy03MWYzLTQyNWUtYjlhOC01MDM1YzRkYjY1NWEifQ.5ihWWDqS8j3kEg_gCknQ20s8f6CkJIACgR_urxsizJk' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Keep most station coach.","maxScore":91,"minScore":25,"description":"Knowledge group stand each something front beyond. Couple common when he. Affect movie record son.\nMind goal just. Record without deep manage right why.","estimatedTime":"6 weeks","previewFileId":"f30eee1a-4b9a-4ce5-8fba-863b2af144ab","createdByUserId":"26259737-71f3-425e-b9a8-5035c4db655a"}'
