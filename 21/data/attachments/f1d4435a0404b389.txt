@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDEyOjQ5OjU5LjA3MzIyNyIsInVzZXJfaWQiOiI0NzJhOGFjMi1mMDU5LTQ3YmQtOWVmZC01NWI0NTVkOGE3ZjUifQ.30j9aw2IYgC1AcTEbZJNLkg1TM_-2t0Am3SN55H5AGk' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Officer weight trial American top tax.","maxScore":93,"minScore":14,"description":"Finish through fund clearly memory dream cost possible. Difference girl could short career including others. Eye plan he heart thought drug.\nNight figure approach investment.","estimatedTime":"8 weeks","previewFileId":"e2b1a8d3-ae96-45f2-8c0a-611596e9e60a","createdByUserId":"472a8ac2-f059-47bd-9efd-55b455d8a7f5"}'
