@@ -73,6 +73,7 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           name: allure-results
+          run: ls -R
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v2  # Опять клонируем репозиторий, чтобы получить историю отчётов
