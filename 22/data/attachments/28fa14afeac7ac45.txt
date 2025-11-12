@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDEyOjUxOjQxLjA1Njk2MCIsInVzZXJfaWQiOiI3MWYxZjY0Yi0wNjQ0LTQxYTUtOTgyNi0wNDQyNWQ1ZWIxZGYifQ.ilMgD1dDi3Ge9hhjObVUXDLtPraylNTFN3ipHrGFEfU' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power none information.","courseId":"6e7b8fba-fcd1-4838-bcde-e526ccad7204","maxScore":56,"minScore":15,"orderIndex":43,"description":"Production serve green son evidence kitchen real. Receive history camera bag buy. Simply question anything thing deal pattern.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDEyOjUxOjQyLjI0OTI4NyIsInVzZXJfaWQiOiIyNzM0MGM3Ny1mZmUwLTQ3MzYtYTE0ZC0wMWZmMWU4OTEzOWUifQ.xR3xq4mt54N3DQDc9bYf-mv_JDhhCRgC8rpKNxH6iqc' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"True meet expert response.","maxScore":52,"minScore":24,"description":"Wear large company. Any tell least car. Before media attention establish manage enough beautiful cut.","estimatedTime":"4 weeks","previewFileId":"40e007cc-871e-4ea4-821b-62148fae4ae7","createdByUserId":"27340c77-ffe0-4736-a14d-01ff1e89139e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDEyOjUxOjQxLjk3NTYyNSIsInVzZXJfaWQiOiIwODk0OTQ0Zi1iZWM2LTQwZDYtOTU5YS01NzExYjg1NDgxNmIifQ.QRQf77H2Sb-Wz_MURS7rp17rq5CYech3sd29ah18QV0' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Structure try think size because rise.","courseId":"88671933-0507-4648-bff7-d6373905acde","maxScore":60,"minScore":29,"orderIndex":26,"description":"With after Mr. Authority might cup.\nProfessor need trade door mean per wait. Service eat true make. Again they other.\nEspecially hair certain white its cost. Mouth piece five protect tend.","estimatedTime":"1 weeks"}'

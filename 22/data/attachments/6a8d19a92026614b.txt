@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDEyOjUxOjM5Ljg4OTMzMCIsInVzZXJfaWQiOiJmOTJhOTc1MC0wMDk2LTQ0Y2UtOTNlZi1jMDU3ZmFlZDY1N2MifQ.RiXdO7W4wBpg_Ms6N0pEA2ASqm-aO8iR-akX6Cjkkm4' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tv chair involve reason population enjoy.","maxScore":98,"minScore":25,"description":"Animal about even well available. Affect yes responsibility art interest mention. Good help national. Now two wide research good.","estimatedTime":"10 weeks","previewFileId":"bd747ffd-3a99-4902-bbb1-830772266aa2","createdByUserId":"f92a9750-0096-44ce-93ef-c057faed657c"}'

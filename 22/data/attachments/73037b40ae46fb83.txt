@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9b9d4e99-b723-4600-a1cc-4487152b23e2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDEyOjUxOjM5LjMwMzI2OSIsInVzZXJfaWQiOiJjMzEzZWJlMi03OTU4LTRhODUtOGQ5Yy04YTJhYzUyMDk4YTIifQ.oQ9vKGvXSlfB6_bLHHJhJfX2lvQASTNIe9Znm-O_GTY' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return save than certain.","maxScore":90,"minScore":23,"description":"Stand stock simple herself. Gun piece line close. Represent hit economy matter art.\nUnder structure citizen sometimes thank people system. Across lawyer per work. Serve goal once imagine fact summer.","estimatedTime":"1 weeks"}'
