@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE4OjMzOjUyLjQ5MTQxOSIsInVzZXJfaWQiOiJiYzEzNmE5MS05YmM4LTRlMGItYjk4OS00MDJlNWJlYjg1ODQifQ.LFMibqOwLAOkGy1kp1AyUAsFg-uIHPnXXFKh9J3sGOs' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation rise bad son picture high woman.","maxScore":58,"minScore":24,"description":"Keep daughter difficult store cell rock force per. Nothing phone into task use over card.\nPiece explain son line past. Increase way executive girl partner. Seek her clear born effect.","estimatedTime":"1 weeks","previewFileId":"d6f1c7ae-2f02-4a12-9ee2-e10ca803cde8","createdByUserId":"bc136a91-9bc8-4e0b-b989-402e5beb8584"}'

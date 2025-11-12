@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE4OjMzOjU1Ljk0NTk5OSIsInVzZXJfaWQiOiJkN2RkMDAwZi04ZTJkLTRiMmYtYjlkMy1mMmRiN2VlYTlhM2IifQ.ZPS9w2WWjzHV9tLtZCa1PCQZ6rRF5t9_Nh8X1oZrMJA' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Few spring defense such history three.","maxScore":72,"minScore":7,"description":"Two arrive six section run. Top while radio everyone ready Republican but. Buy factor everybody commercial.\nPrice foot near school else cell rule. Small church attorney lawyer hour about.","estimatedTime":"7 weeks","previewFileId":"06bb64b2-c567-4702-b51e-30fc4ea7ec7f","createdByUserId":"d7dd000f-8e2d-4b2f-b9d3-f2db7eea9a3b"}'

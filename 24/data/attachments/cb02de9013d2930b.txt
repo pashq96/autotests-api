@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE4OjMzOjUzLjY1NTg3NyIsInVzZXJfaWQiOiJhNzVkZWQ4Yy1jNmJhLTRkOTctYTZkNC0yYzczMDc1NmM3ZDIifQ.Nsb-qKK6O1bSaEPTnd6Fo6NWO8_JzZIl5N5Qqg-x6OI' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier partner tax group Mrs dog offer.","maxScore":86,"minScore":21,"description":"Serious do oil item. Would range quickly place future phone.\nSeek worry discussion kind north. Suddenly stuff sell nature travel feeling. Something ability most American.","estimatedTime":"3 weeks","previewFileId":"f1819ffa-089d-4cb6-9781-c55060bf9d5f","createdByUserId":"a75ded8c-c6ba-4d97-a6d4-2c730756c7d2"}'

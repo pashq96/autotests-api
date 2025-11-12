@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE4OjMzOjUxLjkyODI3OSIsInVzZXJfaWQiOiJjNmM4MjNkYy0xYTVjLTRhMjctODNjZi0yNjY1YjNmOTAxNTkifQ._8xouxLq_OyGEWI9a9U0HeFfYaPVZYZkffwb_MqOydM' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Firm high employee training bag reduce phone.","maxScore":76,"minScore":13,"description":"Move drug tonight ahead if tough. Event seat common serious sport run yeah. Board peace section soon.\nSense wide exactly family social their region.","estimatedTime":"5 weeks","previewFileId":"adedb47f-852c-4f29-aea8-ccb560010471","createdByUserId":"c6c823dc-1a5c-4a27-83cf-2665b3f90159"}'

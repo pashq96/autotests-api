@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE4OjMzOjUzLjA0ODc0NiIsInVzZXJfaWQiOiJhZDAzNmRiZC0wZmQ1LTQ1ZTItYWMyZC00YTY0YmRmZTE3NGQifQ.nOGxUQCVUaclAbhc1hRBtIcgMD1J6ZhgO0hFECwmcEg' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Light point less black season.","maxScore":50,"minScore":12,"description":"Everything focus page service. Style kid scientist use growth. Ago increase magazine join single none.\nImagine feeling sort top issue. Training other grow business. Whose left computer leader writer.","estimatedTime":"5 weeks","previewFileId":"b8cae0a5-b36f-49d3-a174-cca114706c2f","createdByUserId":"ad036dbd-0fd5-45e2-ac2d-4a64bdfe174d"}'

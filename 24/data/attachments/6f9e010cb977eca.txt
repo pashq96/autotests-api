@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE4OjMzOjU0Ljc3MDQ1NCIsInVzZXJfaWQiOiI4MzhlMGI3YS1iMTYzLTRiZGMtYTgzZS1lYjIxYjViZWRmZjcifQ.CWI2IqK0FU2fkqCCvIEMlMsbT7Rlrg-fJPk4qeSs8rk' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reach hot business avoid professor blood specific.","maxScore":83,"minScore":8,"description":"Work away nature financial executive current store. Such expert candidate full green. Heavy mean service investment.","estimatedTime":"9 weeks","previewFileId":"7966138e-f437-4d38-9375-44dc8d9459d7","createdByUserId":"838e0b7a-b163-4bdc-a83e-eb21b5bedff7"}'

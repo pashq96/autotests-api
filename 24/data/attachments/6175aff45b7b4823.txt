@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d2077a18-2276-49b1-9dad-6d9ef8070301' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE4OjMzOjUyLjQ5MTQxOSIsInVzZXJfaWQiOiJiYzEzNmE5MS05YmM4LTRlMGItYjk4OS00MDJlNWJlYjg1ODQifQ.LFMibqOwLAOkGy1kp1AyUAsFg-uIHPnXXFKh9J3sGOs' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feel describe stage carry.","maxScore":69,"minScore":27,"description":"Respond impact brother style environment Mrs television concern. Citizen ever call whatever business fall event. Cause have you after.","estimatedTime":"2 weeks"}'

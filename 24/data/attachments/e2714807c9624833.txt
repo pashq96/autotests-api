@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE4OjMzOjU0LjIxMzM4MSIsInVzZXJfaWQiOiIyZTFjY2M5Ny0wMjE4LTRlNTctYTUwYS1mMDkxZjZiNzU0ZDEifQ.Uu0QzhHdXNnKAdG6Rg1Mueq9QPQlMU0qQvW5c6Q6E84' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Purpose security citizen body.","courseId":"970d9d22-1fdc-46b0-b955-3720d1aa8048","maxScore":92,"minScore":12,"orderIndex":2,"description":"Sea and range. Understand keep model wide.\nLife report PM establish realize. Take property room fight economic bad friend.","estimatedTime":"10 weeks"}'
