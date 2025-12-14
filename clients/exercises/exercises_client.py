@@ -16,7 +16,7 @@ class ExercisesClient(APIClient):
     """
 
     @allure.step("Get exercises")
-    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}")
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         Метод получения всех заданий в курсе
