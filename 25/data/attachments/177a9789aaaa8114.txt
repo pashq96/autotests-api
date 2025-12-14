@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDE4OjE0OjU4LjY4ODUzNyIsInVzZXJfaWQiOiJkODNhNDY4OC0yNjhkLTQ1NDctODkyYS0zNDE2MzY0NmQ5NzUifQ.8c6jvPVtdd96xeyciiMFufBtA_0ebfuYN1jbXGP4jVs' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Operation view this huge hope north.","courseId":"31764d47-c330-442a-9aed-3d50571ebce6","maxScore":57,"minScore":5,"orderIndex":84,"description":"Beautiful position just around. Ready know former accept everything good. No action audience ball international.\nPlay quality community able.","estimatedTime":"3 weeks"}'

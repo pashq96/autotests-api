@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e433abf6-8bf8-42a7-84e1-6a6640179051' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDE4OjE0OjU2LjAyOTE5MyIsInVzZXJfaWQiOiI1MjJjYmJmYy00OGQ3LTQwYjYtOTcwNi05MzI0MzQ0OThkOTgifQ.kw7_N8NAjqlCNZOiLjZ5U59HDAm_YPE8ug0KQftaNcU' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Window international price guy trade west treat while.","maxScore":95,"minScore":24,"description":"Clearly way ago beat sound. Thousand partner if so company.\nVisit business very owner these young. Agency hope because.\nIdea protect last want hour step card. Feel tree agree tend speech factor race.","estimatedTime":"9 weeks"}'

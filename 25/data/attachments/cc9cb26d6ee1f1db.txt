@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDE4OjE0OjU3LjIzMTgwNyIsInVzZXJfaWQiOiIyOTFhMDRmOC0xY2RlLTQyZDAtYWFmNC0yNWVkODUwOWM5OGYifQ.6jbvfLu-jlgnlmsz47zDG-UqQ5-BM1CQlsB0Z5MKk7k' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major reality no boy fish.","maxScore":95,"minScore":24,"description":"Financial heart magazine you cover only. Matter significant alone or.\nConference figure require growth vote. Employee human shake follow toward approach. Herself cause size anything old dream.","estimatedTime":"5 weeks","previewFileId":"898d0094-d18d-4d53-93f7-50255b31a1be","createdByUserId":"291a04f8-1cde-42d0-aaf4-25ed8509c98f"}'

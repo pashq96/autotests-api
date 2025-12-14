@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDE4OjE0OjU4LjQxNTI0MyIsInVzZXJfaWQiOiI0NTQ2N2Y0NC00MjFjLTQ1NWEtODI4NS04NzJlYTM2NDc4MzcifQ.arTfCqx2-OCehNkVQROJWTLuWxSPN05BXG5TFNHW9QU' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During after fear suffer onto out discover.","maxScore":71,"minScore":2,"description":"Evening report game yet half. Win actually job. This wait them fire natural range.","estimatedTime":"2 weeks","previewFileId":"cfea385f-e8aa-4dce-8a00-218dcee6d060","createdByUserId":"45467f44-421c-455a-8285-872ea3647837"}'

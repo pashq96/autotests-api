@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDE4OjE0OjU2LjAyOTE5MyIsInVzZXJfaWQiOiI1MjJjYmJmYy00OGQ3LTQwYjYtOTcwNi05MzI0MzQ0OThkOTgifQ.kw7_N8NAjqlCNZOiLjZ5U59HDAm_YPE8ug0KQftaNcU' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Personal happen leave hundred will.","maxScore":51,"minScore":19,"description":"Foreign give nothing prove phone item often.\nCountry land decide everybody. Everybody nation order institution. Learn nice make coach good research.","estimatedTime":"9 weeks","previewFileId":"2aa6d3fb-fb1b-4bf1-ae21-6da2e43aa94b","createdByUserId":"522cbbfc-48d7-40b6-9706-932434498d98"}'

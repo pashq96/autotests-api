@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDE4OjE0OjU5LjYwMzEzOSIsInVzZXJfaWQiOiI0NDQ2YmFlYi1hNDE1LTRmMTktYTU1OS0zZmM4YzFkNDkyOGQifQ.NW-N3p4huu22xs_qh-2DhIZiXsraIZOx8A6TREqwXq8' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice must thank sister list.","maxScore":90,"minScore":22,"description":"Official front space people. Station market soldier never war scientist. Natural great so ten view simply.","estimatedTime":"4 weeks","previewFileId":"6d26405e-2fd4-43c1-94a2-7858ef5510a2","createdByUserId":"4446baeb-a415-4f19-a559-3fc8c1d4928d"}'

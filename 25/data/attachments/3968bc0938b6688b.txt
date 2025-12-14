@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDE4OjE0OjU3LjUwNTYwMSIsInVzZXJfaWQiOiJjYjNmYzA1ZC1iNzc5LTQ3MTktODdmNS03YzgwMDJiNGY4MGMifQ.EGmLhFTIqSid5gkGQ51m12dsdvGZRdWtvHRkJ73v53w' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Free public street.","maxScore":86,"minScore":19,"description":"Too shoulder take serve job. Center feeling never situation hand difference.\nStudy evening there. Authority ever yard. Describe whose thousand industry test choice. Hot food key beyond.","estimatedTime":"6 weeks","previewFileId":"1d209ae9-b967-45f0-88c3-d206b4a07c42","createdByUserId":"cb3fc05d-b779-4719-87f5-7c8002b4f80c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDE4OjE0OjU4LjY4ODUzNyIsInVzZXJfaWQiOiJkODNhNDY4OC0yNjhkLTQ1NDctODkyYS0zNDE2MzY0NmQ5NzUifQ.8c6jvPVtdd96xeyciiMFufBtA_0ebfuYN1jbXGP4jVs' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Who position daughter job less side.","maxScore":99,"minScore":29,"description":"Federal a stand north her. Issue after major.\nStudy meeting field never. Option almost year. Role wait surface change.\nAmerican ball cold memory rich amount drug. Ahead year western treat image.","estimatedTime":"5 weeks","previewFileId":"42e9ad7c-1f7b-426f-87aa-131dd949fa8f","createdByUserId":"d83a4688-268d-4547-892a-34163646d975"}'
